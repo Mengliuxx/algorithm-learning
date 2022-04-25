@@ -30,3 +30,12 @@
 
     2. 最终的状态：
         Optimal(final stat) = MAX(Optimal(stat1) + cost(transfer1), Optimal(stat2) + cost(transfer2), Optimal(stat3) + cost(transfer3))
+
+
+练习：
+
+    https://leetcode-cn.com/problems/min-cost-climbing-stairs/description/
+    https://leetcode-cn.com/problems/maximum-subarray/description/
+    https://leetcode-cn.com/problems/edit-distance/description/
+    https://leetcode-cn.com/problems/longest-increasing-subsequence/description/
+    https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/
