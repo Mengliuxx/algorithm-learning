@@ -1,0 +1,15 @@
+一、二分查找
+    a. 查找序列需要时单调的（递增或者递减）
+    b. 时间复杂度为O(logN)
+    c. 利用左闭右开区间描述，代码会很优雅[lb, ub)
+
+    代码：
+        while(ub -lb > 1) {
+            int mid = (ub + lb) / 2;
+            if (Check mid) {  //根据nums[mid]来判断搜索左半部分还是右半部分
+                lb = mid;
+            } else {
+                ub = mid;
+            }
+        }
+        // 视情况处理最后的lb或者ub，此时ub = lb + 1
